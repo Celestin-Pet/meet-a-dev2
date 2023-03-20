@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+    
+    body{
+      background-image: url(./core3.png) ;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      font-family: poppins;
+      
+    
+    }
+    p{
+      text-align: center
+    
+    }
+    .contect p {
+      font-size: 40px;
+    
+      
+    }
+    
+    ul,nav{
+      list-style: none;
+    }
+    a{
+      text-decoration: gray;
+      cursor: pointer;
+      color:inherit;
+    }
+    header{
+      position: right;
+      list-style: none;
+    
+      top: 0;
+      left: 0;
+      z-index: 10;
+      width: 100%;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display:-o-flex;
+      display: flex-end;
+      justify-content: right;
+      color:black;
+      padding: 35px  100px 12px 30px;
+    }
+    header a{
+      padding: 12px;
+    }
+    header nav{
+      display:-webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+    }
+    
+    .footer{
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:rgb(82, 82, 82);
+    align-items: center;
+    background-size: 50px;
+    
+    }
+    .contect{
+      margin-bottom: 600px;
+     
+    }
+    .footer a{
+      margin-left: 30px;
+      }
+      .tel{
+        margin-right: 60px;
+      }
+    

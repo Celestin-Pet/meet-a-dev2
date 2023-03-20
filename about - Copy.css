@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  }
+  
+  body{
+    background-image: url(./backgroundimg2.jpeg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: poppins;
+    
+  
+  }
+  p{
+    text-align: center
+  
+  }
+  .parent li{
+    list-style: none;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #4b0421;
+  }
+
+  .parent a:hover{
+      color: #051629;
+      padding-left: 14px;
+  }
+  
+  ul,nav{
+    list-style: none;
+  }
+  a{
+    text-decoration: gray;
+    cursor: pointer;
+    color:inherit;
+  }
+  header{
+    position: right;
+    list-style: none;
+  
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display:-o-flex;
+    display: flex-end;
+    justify-content: right;
+    color:black;
+    padding: 35px  100px 12px 30px;
+  }
+  header a{
+    padding: 12px;
+  }
+  header nav{
+    display:-webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+  
+  .footer{
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:rgba(102, 100, 100, 0.514);
+    align-items: center;
+    background-size: 50px;
+    
+    }
+    .contect{
+      margin-bottom: 600px;
+      color: #4b0421;
+      margin-top: 100px;
+           }
+    .footer a{
+      margin-left: 30px;
+      }
+      .tel{
+        margin-right: 60px;
+      }
+
+    
+
+
+
+      
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      body{
+          line-height: 1.5;
+          font-family: 'Poppins', sans-serif;
+           font-family: 'Poppins', sans-serif;
+      
+      }
+
+      *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      .container{
+          max-width: 1170px;
+          margin: auto;
+          color: rgb(115, 115, 245);
+      }
+      .row{
+          display: flex;
+          flex-wrap: wrap;
+      }
+      ul{
+          list-style: none;
+      }
+     {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      
+
+     }
+
+      .footer1{
+          background-color: #1d1d29;
+          padding: 70px 0;
+      }
+      .footer-col{
+          width: 25%;
+          padding: 0 15px;
+
+      
+      }
+      .footer-col h4{
+          font-size: 18px;
+          color:#ffffff;
+          text-transform: capitalize;
+          margin-bottom: 35px;
+          font-weight: 500;
+          position:relative;
+
+
+      }
+      .footer-col h4::before{
+          content:'';
+          position:absolute;
+          left:0;
+          bottom: -10px;
+          background-color: #e91e63;
+          height: 2px;
+          box-sizing: border-box;
+          width: 50px;
+      
+      }
+      .footer-col ul li:not(:last-child){
+          margin-bottom: 10px;
+      }
+      .footer-col ul li a{
+          font-size: 16px;
+          text-transform: capitable;
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: 300;
+          color:#bbbbbb;
+          display:block;
+          transform: all 0.3s ease;
+
+      }
+      .footer-col ul li a:hover{
+          color: #ffffff;
+          padding-left: 10px;
+      }
+      .footer-col .social-links a{
+          display: inline-block;
+          height: 40px;
+          width: 40px;
+          background-color: rgba(255, 255,255, 0.2);
+          margin: 0 10px 10px 0;
+          text-align: center;
+          line-height: 50px;
+          border-radius: 50%;
+          color:#ffffff
+          transition: all 0.5s ease;
+      }
+      .footer-col .social-links a:hover{
+          color: #24262b;
+          padding: auto;
+          background-color: #ffffff;
+      }
+      @media(max-width: 767px){
+          .footer-col{
+              width: 50%;
+              margin-bottom: 30px;
+          }            
+      }
+      @media(max-width: 574px){
+          .footer-col{
+              width: 50%;
+          }
+        }
+
